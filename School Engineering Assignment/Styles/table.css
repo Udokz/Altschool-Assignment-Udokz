@@ -1,0 +1,36 @@
+.links{
+    list-style: none;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    z-index: 1000;
+    justify-content: safe;
+    align-items: right;
+    position: absolute;
+    background-color:rgb(241, 238, 238);
+    padding: 20px;
+    margin: 0px;
+
+}
+
+
+.links a{
+    color: #0a0909;
+    text-decoration: none;
+    font-size:20px;
+    padding:10px 20px;
+    font-family: helvetica;
+}
+
+
+
+.links a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    
+}
+.name{
+    font-family: helvetica;
+    padding-left: 20px;
+}
