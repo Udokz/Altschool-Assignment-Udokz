@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application form</title>
+    <link rel="stylesheet" href="./Styles/form.css">
+  </head>
+  <body>
+  <header>
+    <nav class="navigation">
+      <ul class="links">
+      <li><a href="/index.html" target="_blank" id="about" >Home</a></li>
+      <li><a href="/form.html" target="_blank">Form</a></li>
+      <li><a href="/table.html" target="_blank">Table</a></li>
+      <li><a href="/media.html" target="_blank">Media Gallery</a></li>
+    </ul>
+     </nav>
+  </header>
+    <div class="container">
+    <div class="left-side">
+      
+      <img src="/Asset/Images/alt school.png" alt="Alt School Africa Logo" />
+    <h1>Learn highly sought <br>after skills without hassle.</h1>
+    <P>Tel: 080ALTSCHOOL</P>
+    <P><b>&copy; 2024 AltSchool Africa. All rights reserved.</b></P>
+  </div>
+
+<div class="right side">
+<h2>Signup</h2>
+<p>Take the next steps to apply at Altschool Africa</p>
+    
+    <form>
+      <div class="form-row">
+        <div class="form-group">
+     <label for="fname">First Name</label>
+      <input type="text" id="fname" name="fname" placeholder="Enter first name" required/>
+      </div>
+      <div class="form-group">
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lname" placeholder="Enter last name" />
+      </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+       <label for="Gender">Gender</label> 
+      <input list="gender" name="gender" placeholder="Select gender">
+    <datalist id="gender">
+      <option value="Male">
+      <option value="Female">
+    </datalist>
+  </div>
+      <div class="form-group">
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" name="dob"/>
+    </div>
+    </div>
+      <div class="form-row">
+        <div class="form-group">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="Enter email address" /></div>
+      <div class="form-group">
+      <label for="telephone">Phone Number</label>
+      <input type="tel" id="telephone" name="telephone" placeholder="08023154238" />
+    </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+      <label for="country">Country</label>
+      <input list="country" name="country" placeholder="Select your country" />
+      <datalist id="country">
+        <option value="Angola">
+          <option value="Canada">
+            <option value="Kenya">
+              <option value="Nigeria">
+                <option value="United Kingdom">
+  </datalist>
+</div>
+      <div class="form-group">
+      <label for="residence">State/City of Residence</label>
+      <input type="text" id="residence" name="residence" placeholder="Enter your city of residence" />
+    </div>
+    </div>
+      <div class="form-row">
+        <div class="form-group">
+      <label for="channel">How did you hear about us?</label>
+      <input list="channel" name="channel" placeholder="Select a channel" />
+      <datalist id="channel">
+        <option value="Linkedin">
+          <option value="Twitter">
+            <option value="Facbook">
+              <option value="Whatsapp">
+      </datalist>
+    </div>
+    </div>
+      <div class="form-row">
+      <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter password" /></div>
+      <div class="form-group">
+      <label for="cpassword">Confirm Password</label>
+      <input type="password" id="cpassword" name="cpassword" placeholder="Enter password again" />
+    </div>
+    </div>
+    <footer><p style="font-size: medium;">By clicking continue, i agree to <a href="/form.html">Terms of Use</a> and acknowledge that
+      i have read the <a href="/form.html">Privacy Policy</a>.
+    </p></footer>
+    <button type="submit">Submit ></button>
+  </form>
+  </div>
+  </div>
+  </body>
+</html>
